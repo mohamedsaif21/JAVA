@@ -7,6 +7,9 @@ public class Printing{
         System.out.println("Name: " + name + ", Age: " + age + ", Salary: " + salary);
         //Basic
         System.out.printf("Name: %s, Age: %d, Salary: %.2f", name, age, salary);
+        //Formatting with width and precision
+        System.out.printf("\nName: %s, Age:%d, Salary: $%,.3f", name, age, salary);
+
     }
 
 
