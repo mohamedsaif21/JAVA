@@ -28,8 +28,6 @@ class calculator{
             default:
                 System.out.println("invalid operation!!");
                 break;
-      
-            
         
         }
     }
