@@ -26,6 +26,8 @@ class nestedifage {
         }
         if(a>=60){
             System.out.println("senior citizen");
+        }else {
+            System.out.println("old age");
         }
     }
 }
