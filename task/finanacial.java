@@ -4,7 +4,7 @@ class finanacial{
 
     public static void main(String[]args){
 
-        Scanner sc = new Scanner (System.in);
+        Scanner sc  = new Scanner (System.in);
         System.out.println("Enter the value:");
         int a = sc.nextInt();
             if(a<0){
