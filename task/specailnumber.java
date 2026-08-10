@@ -1,7 +1,5 @@
 import java.util.*;
-
 public class specailnumber {
-
     public static void main(String[] args) {
         
         Scanner sc1 = new Scanner(System.in);
