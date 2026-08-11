@@ -1,7 +1,6 @@
 
 // To reverse the number (with return with Argument)
 package Methods;
-
 import java.util.*;
 public class ReverseWRA {
         //obj creation
@@ -16,7 +15,6 @@ public class ReverseWRA {
             }
 public static void main(String[]args){
         ReverseWRA obj = new ReverseWRA();
-        Scanner sc = new Scanner(System.in);
         System.out.println("Rev of 12345 is "+obj.reverseNumber(12345));
         System.out.println("Rev of 5678 is "+obj.reverseNumber(5678));
         System.out.println("Rev of 10192 is "+obj.reverseNumber(10192));
