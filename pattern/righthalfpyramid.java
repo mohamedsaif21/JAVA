@@ -1,10 +1,5 @@
 package pattern;
-/*
-*        <----- Row=col(1)
-**       <----- Row=col(2)
-***      <----- Row=col(3)
-****     <----- Row=col(4)
-*/
+
 import java.util.*;
 public class righthalfpyramid {
 
@@ -13,18 +8,29 @@ public class righthalfpyramid {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of n:");
         int n = sc.nextInt();
+/*
+*        <----- Row=col(1)
+**       <----- Row=col(2)
+***      <----- Row=col(3)
+****     <----- Row=col(4)
+*/
+        
+/*
+****  <----- col=row(4)
+***   <----- col=row(3)
+**    <----- col=row(2)
+*     <----- col=row(1)
+*/  
+        for(int row = n; row>=1; row--){
 
-        for(int row = 1; row<=n; row++){
+            for(int col=row ; col>=1; col--){
 
-            for(int col=1 ; col<=row; col++){
-
-                System.out.print("*"+" ");
+                System.out.print("*");
             }
             System.out.println();
         }
-        
-
-    }
+       
     
     
+}
 }
