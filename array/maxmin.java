@@ -1,7 +1,5 @@
-package array;
 
 import java.util.*;
-
 public class maxmin {
 
     //for finding minimum value
@@ -11,7 +9,6 @@ public class maxmin {
             if(nums[i]<min){
                 min = nums[i];
             }
-
         }
         System.out.println("Minimum values "+min);
 
