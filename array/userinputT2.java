@@ -9,6 +9,7 @@ public class userinputT2 {
         int len = marks.length;
         for(int i=0; i<len; i++){
             System.out.println(marks[i]);
+            
     
 }
     }
