@@ -1,4 +1,4 @@
-package task;
+package loopingstatment;
 import java.util.Scanner;
 class ForLoop {
     public static void main(String[] args) {
