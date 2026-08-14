@@ -1,7 +1,8 @@
+package array.task;
 
 import java.util.*;
 
-public class calculate {
+public class calculatearray {
 
     public static int findArraySum(int []num){
         int sum = 0;
