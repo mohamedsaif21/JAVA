@@ -3,7 +3,7 @@ package Javacourse;
 public class Datatype {
 
     public static void main(String[] args) {
-        
+        //Primitive Data Type
         int num1 = 2;
         byte by =127;
         short sh = 558;
