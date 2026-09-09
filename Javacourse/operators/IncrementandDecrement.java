@@ -1,4 +1,4 @@
-package Javacourse;
+package Javacourse.operators;
 
 public class IncrementandDecrement {
 

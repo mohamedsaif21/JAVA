@@ -1,9 +1,13 @@
-package Javacourse;
+package Javacourse.operators;
 
 public class Relationoperator {
 
     public static void main(String[] args) {
         
+
+        double a = 8.8;
+        double b = 9.8;
+
         int x =5;
         int y =5;
 
