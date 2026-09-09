@@ -11,7 +11,7 @@ public class logical {
 
         boolean result = x > y && a < b ;
         boolean result1 = x > y || a > b || a < 1;
-        boolean result2 =  a > b;
+        boolean result2 =  a > b; //false
 
         System.out.println(result);
         System.out.println(result1);
