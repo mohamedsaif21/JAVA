@@ -4,7 +4,6 @@ package Javacourse.OOP;
 
 class Calculator {
     // every object as 2 things Properties and Methods
-    int a;
     public int add(int a1, int a2){ //Methods
         //System.out.println("In Add");
         int r = a1 + a2;
