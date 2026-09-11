@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Creatingobject",
+            "request": "launch",
+            "mainClass": "Javacourse.OOP.Creatingobject",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Forloop",
+            "request": "launch",
+            "mainClass": "Javacourse.statments.loop.Forloop",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "DoWhileLoop",
+            "request": "launch",
+            "mainClass": "Javacourse.statments.DoWhileLoop",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "NestedWhileLoop",
+            "request": "launch",
+            "mainClass": "Javacourse.statments.NestedWhileLoop",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "whileloop",
+            "request": "launch",
+            "mainClass": "Javacourse.statments.whileloop",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
