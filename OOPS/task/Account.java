@@ -12,6 +12,18 @@ package OOPS.task;
             this.balance =balance;
         }
 
+        void setB(double B){
+
+            if(B<0){
+                System.out.println("B is invalid");
+                return;
+            }else{
+                this.balance = B;
+            }
+        }
+        public double getB(){
+            return balance;
+        }
         public static void main(String[] args) {
 
             Account n = new Account("Ram" , 927393793 , 6300.10);
