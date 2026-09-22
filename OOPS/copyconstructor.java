@@ -1,6 +1,6 @@
 package OOPS;
 
-public class copyconstructor {
+public class copyconstructor {}
 
     class Student{
 
@@ -8,13 +8,13 @@ public class copyconstructor {
         int age;
         Student (String name){
             System.out.println("The object is created");
-            this Name = name;
+            this.Name = name;
         }
         
         Student (String name , int age){
 
-            this Name = name;
-            this age = age;
+            this.Name = name;
+            this.age = age;
         }
     }
 
@@ -27,4 +27,4 @@ public class copyconstructor {
             }
         }
     
-}
+
